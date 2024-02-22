@@ -1,0 +1,186 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+/*Header*/
+header{
+ background-image: url(anhheader.png);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+   
+}
+
+header>.top-right{
+    
+    width: 200px;
+    height: 30px;
+    background-color:#0873c5;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-variant:normal;
+    text-decoration: none;
+    padding-top: 5px;
+
+}
+header>.top-right>a{
+    text-decoration: none;
+    color:white;
+}
+header>.top-right>a:hover{
+    color:white;
+    font-variant:small-caps;
+   
+}
+/*Nav-navigation-điều hướng*/
+div.chuchay{
+    width: 100%; height: 35px;
+    color:blue;
+	background-color: whitesmoke;
+    text-align: justify;
+    padding-top: 5px;
+}
+.hmenu{
+    margin:0px;
+    padding:0px;
+    border-radius:5px;
+    box-shadow:0 0 5px #0873c5;
+    list-style: none;
+    background-color: #0873c5;
+    height:40px;
+    clear:both;
+}
+ul.hmenu>li>a{
+    display:block;
+    line-height:40px;
+    text-decoration: none;
+    font-variant:small-caps;
+    padding-left: 25px;
+    color: white;
+}
+ul.hmenu>li>a:hover{
+    color:yellow;
+    font-weight:bolder;
+
+}
+ul.hmenu>li{
+    float:left;
+    margin:0 5px;
+    position:relative;
+}
+ul.hmenu>li:hover>.sub-menu{
+    background-color: orangered;
+    display:block;
+}
+.sub-menu{
+    margin:0px;
+    padding:0px;
+    border-radius:5px;
+box-shadow:0 0 5px blue;
+list-style:none;
+width:150px;
+position:absolute;
+display:none;
+
+}
+/*Khi chưa trỏ chuột*/
+.sub-menu>li>a{
+    display:block;
+    line-height:30px;
+    border-bottom:1px dotted blue;
+    text-decoration: none;
+    /*text-decoration: gạch chân*/
+    font-variant:small-caps;
+    padding-left:25px;
+    background: url(img\1.JPG) no-repeat left center;
+    color: white;
+}
+/*Khi trỏ chuột*/
+.sub-menu>li>a:hover{
+    background:url(img\2.JPG) no-repeat left center;
+    color:red;
+    background-color: white;
+    font-weight:bolder;
+}
+/*Article*/
+article{
+    width:70%;
+    height: 800px;
+    float:right;
+    border: 1px solid black;
+    border-radius:5px;
+    
+}
+/* Định dạng cho ảnh*/
+article>div.artic>img{
+    height: 500px;
+    width:800px;
+    margin-top: 10px;
+    padding-left:10px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+/* Định dạng cho văn bản*/
+article>div.artic>div.vanban{
+    text-align: justify;
+    padding: 10px;
+}
+/* Aside*/
+ul.vmenu{
+    font-variant:small-caps;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius:5px;
+    max-height: 600px;
+    
+    line-height: 20px;
+    width:30%;
+    float:left;
+  
+
+}
+ul.vmenu>div.xnn{
+    color:white;
+    font-variant:small-caps;
+    background-color:#0873c5;
+    text-decoration: none;
+    text-align: center;
+}
+ul.vmenu>li>a{
+    display: flex;
+    flex-direction: column-reverse;
+    color:dodgerblue;
+    background-color: white;
+    border-bottom: 1px solid blue;
+    display: block;
+    text-decoration: none;
+    padding:5px;
+
+}
+/* Định dạng cho ảnh*/
+ul.vmenu>li>a>img{
+    width:100px;
+    height: 60px;
+    float:left;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+ 
+}
+ul.vmenu>li>p {
+    word-spacing: 5px;
+  }
+  /*Footer*/
+footer{
+    border: 1px solid #0873c5 ;
+    color:white;
+    background-color:#0873c5;
+  text-align:center;
+  line-height:20px;
+  clear:both;
+}
